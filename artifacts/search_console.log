@@ -1,0 +1,43 @@
+mlp_lr_0p0001 | época 01/30 | F1 val=0.1534 | acc val=0.2823 | 3.51s
+mlp_lr_0p0001 | época 02/30 | F1 val=0.0796 | acc val=0.2427 | 2.16s
+mlp_lr_0p0001 | época 03/30 | F1 val=0.0634 | acc val=0.2348 | 2.17s
+mlp_lr_0p0001 | época 04/30 | F1 val=0.0635 | acc val=0.2348 | 1.92s
+mlp_lr_0p0001 | época 05/30 | F1 val=0.0628 | acc val=0.2322 | 1.80s
+mlp_lr_0p0001 | época 06/30 | F1 val=0.2019 | acc val=0.3456 | 2.12s
+mlp_lr_0p0001 | época 07/30 | F1 val=0.1397 | acc val=0.2770 | 2.03s
+mlp_lr_0p0001 | época 08/30 | F1 val=0.3262 | acc val=0.4459 | 2.09s
+mlp_lr_0p0001 | época 09/30 | F1 val=0.2355 | acc val=0.3562 | 3.22s
+mlp_lr_0p0001 | época 10/30 | F1 val=0.3457 | acc val=0.4512 | 1.87s
+mlp_lr_0p0001 | época 11/30 | F1 val=0.2562 | acc val=0.3720 | 1.85s
+mlp_lr_0p0001 | época 12/30 | F1 val=0.2829 | acc val=0.3694 | 2.16s
+mlp_lr_0p0001 | época 13/30 | F1 val=0.3139 | acc val=0.4142 | 2.59s
+mlp_lr_0p0001 | época 14/30 | F1 val=0.3288 | acc val=0.4459 | 2.84s
+mlp_lr_0p0001 | época 15/30 | F1 val=0.3514 | acc val=0.4538 | 3.21s
+mlp_lr_0p0001 | época 16/30 | F1 val=0.3385 | acc val=0.4485 | 2.71s
+mlp_lr_0p0001 | época 17/30 | F1 val=0.3354 | acc val=0.4380 | 3.14s
+mlp_lr_0p0001 | época 18/30 | F1 val=0.3719 | acc val=0.4433 | 3.44s
+mlp_lr_0p0001 | época 19/30 | F1 val=0.3596 | acc val=0.4828 | 3.01s
+mlp_lr_0p0001 | época 20/30 | F1 val=0.3261 | acc val=0.4459 | 2.62s
+mlp_lr_0p0001 | época 21/30 | F1 val=0.3787 | acc val=0.4881 | 3.21s
+mlp_lr_0p0001 | época 22/30 | F1 val=0.3523 | acc val=0.4512 | 3.89s
+mlp_lr_0p0001 | época 23/30 | F1 val=0.3828 | acc val=0.4565 | 3.51s
+mlp_lr_0p0001 | época 24/30 | F1 val=0.3817 | acc val=0.4591 | 2.85s
+mlp_lr_0p0001 | época 25/30 | F1 val=0.3535 | acc val=0.4617 | 2.51s
+mlp_lr_0p0001 | época 26/30 | F1 val=0.3631 | acc val=0.4697 | 2.42s
+mlp_lr_0p0001 | época 27/30 | F1 val=0.3410 | acc val=0.4538 | 2.48s
+mlp_lr_0p0001 | época 28/30 | F1 val=0.3753 | acc val=0.4565 | 2.68s
+mlp_lr_0p0001 | época 29/30 | F1 val=0.3477 | acc val=0.4617 | 2.89s
+mlp_lr_0p0001 | época 30/30 | F1 val=0.3257 | acc val=0.4538 | 2.53s
+mlp_lr_0p0001: melhor época 23; F1 macro val=0.3828.
+mlp_lr_0p0003 | época 01/30 | F1 val=0.0634 | acc val=0.2348 | 2.11s
+mlp_lr_0p0003 | época 02/30 | F1 val=0.0634 | acc val=0.2348 | 2.66s
+mlp_lr_0p0003 | época 03/30 | F1 val=0.1277 | acc val=0.2850 | 2.56s
+mlp_lr_0p0003 | época 04/30 | F1 val=0.0634 | acc val=0.2348 | 3.05s
+mlp_lr_0p0003 | época 05/30 | F1 val=0.0634 | acc val=0.2348 | 2.22s
+mlp_lr_0p0003 | época 06/30 | F1 val=0.0634 | acc val=0.2348 | 2.47s
+mlp_lr_0p0003 | época 07/30 | F1 val=0.0634 | acc val=0.2348 | 2.32s
+mlp_lr_0p0003 | época 08/30 | F1 val=0.0634 | acc val=0.2348 | 2.43s
+mlp_lr_0p0003 | época 09/30 | F1 val=0.0634 | acc val=0.2348 | 2.65s
+mlp_lr_0p0003 | época 10/30 | F1 val=0.0634 | acc val=0.2348 | 2.10s
+mlp_lr_0p0003: melhor época 3; F1 macro val=0.1277.
+Taxa selecionada apenas pela validação: 0.0001. Execute src.train para concluir os modelos finais.

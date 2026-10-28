@@ -1,0 +1,7 @@
+class_name,train,val,test,total
+glass,350,75,76,501
+paper,416,89,89,594
+cardboard,282,61,60,403
+plastic,337,72,73,482
+metal,287,61,62,410
+trash,96,21,20,137

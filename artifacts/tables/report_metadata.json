@@ -1,0 +1,18 @@
+{
+  "selected_run": "cnn_128",
+  "criterion": "val_macro_f1",
+  "test_images": 380,
+  "test_errors": 142,
+  "errors_shown": 6,
+  "error_order": "confidence descending, then path ascending",
+  "zero_division": 0,
+  "class_order": [
+    "glass",
+    "paper",
+    "cardboard",
+    "plastic",
+    "metal",
+    "trash"
+  ],
+  "loss_note": "Nos experimentos ponderados, a perda de treino usa pesos de classe e a perda de validação usa entropia cruzada sem pesos; suas magnitudes não são diretamente comparáveis."
+}

@@ -1,0 +1,13 @@
+{
+  "train_manifest_sha256": "b54113e4a0f6535b82247b8809c8ab9dacca52853bbe9162159e7e200cf6caa4",
+  "val_manifest_sha256": "9578ce1b8a60021262ff8c995afc97fc39a088da333f35cd88a9c0422eee4315",
+  "test_manifest_sha256": "cfe9e5fa5f28f467f3792d809b26e01c34de2ed9291f1581e2ca24ae451dd8e6",
+  "class_order": [
+    "glass",
+    "paper",
+    "cardboard",
+    "plastic",
+    "metal",
+    "trash"
+  ]
+}

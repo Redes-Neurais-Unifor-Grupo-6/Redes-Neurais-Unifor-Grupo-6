@@ -1,0 +1,7 @@
+true_class,glass,paper,cardboard,plastic,metal,trash
+glass,37,8,0,13,17,1
+paper,5,79,0,4,1,0
+cardboard,4,10,42,3,1,0
+plastic,9,8,2,54,0,0
+metal,13,20,0,10,18,1
+trash,10,6,0,0,0,4

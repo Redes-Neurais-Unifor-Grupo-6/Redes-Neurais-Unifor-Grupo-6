@@ -1,0 +1,13 @@
+{
+  "completed_at_utc": "2026-10-22T11:28:17.578792+00:00",
+  "selected_learning_rate": 0.0001,
+  "criterion": "highest validation macro F1 of unweighted MLP; ties lowest validation loss then id",
+  "test_used": false,
+  "rates": [
+    0.001,
+    0.0001,
+    0.0003
+  ],
+  "reason": "Initial MLP predicted almost a single class on validation. Two smaller Adam learning rates were investigated before test access.",
+  "final_training": "Both MLP experiments restarted from seed 42 with selected learning rate; CNN protocol unchanged."
+}

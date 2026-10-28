@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/
+data/cache/
+**/last.pt
+*.tmp
+
+# Pilotos: históricos, configurações e métricas são públicos; pesos finais estão em runs/.
+artifacts/search/**/best.pt
+artifacts/search/pilot_workspace/data

@@ -1,0 +1,19 @@
+{
+  "path": "data/raw/dataset-resized/glass/glass1.jpg",
+  "split": "train",
+  "resampling": "Pillow.Resampling.LANCZOS",
+  "width_height": [
+    [
+      128,
+      96
+    ],
+    [
+      256,
+      192
+    ],
+    [
+      512,
+      384
+    ]
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "class_order": [
+    "glass",
+    "paper",
+    "cardboard",
+    "plastic",
+    "metal",
+    "trash"
+  ],
+  "total_images": 2527,
+  "counts": {
+    "glass": 501,
+    "paper": 594,
+    "cardboard": 403,
+    "plastic": 482,
+    "metal": 410,
+    "trash": 137
+  },
+  "dimensions": {
+    "512x384": 2527
+  },
+  "modes": {
+    "RGB": 2527
+  },
+  "corrupt_files": [],
+  "byte_duplicates": [
+    {
+      "hash": "81546d1362d75fc60718e5852593c58f66f813e8c1e9d1eae6871fedb02e2868",
+      "paths": [
+        "data/raw/dataset-resized/glass/glass115.jpg",
+        "data/raw/dataset-resized/metal/metal91.jpg"
+      ],
+      "classes": [
+        "glass",
+        "metal"
+      ],
+      "label_conflict": true
+    },
+    {
+      "hash": "c41b99aec8a3257c8668a2144ebbaf8042018f0a85d88e22bf4e413b43693dd8",
+      "paths": [
+        "data/raw/dataset-resized/glass/glass176.jpg",
+        "data/raw/dataset-resized/plastic/plastic152.jpg"
+      ],
+      "classes": [
+        "glass",
+        "plastic"
+      ],
+      "label_conflict": true
+    },
+    {
+      "hash": "e971f4f8f50e960e454ea724cec922fc2988bbf4027aa48b553e139bb5890968",
+      "paths": [
+        "data/raw/dataset-resized/glass/glass389.jpg",
+        "data/raw/dataset-resized/plastic/plastic332.jpg"
+      ],
+      "classes": [
+        "glass",
+        "plastic"
+      ],
+      "label_conflict": true
+    }
+  ],
+  "pixel_duplicates": [
+    {
+      "hash": "7dab44930e3aeb300a10510e7e47aa76494f15401ddf860f978fea91b14dabfb",
+      "paths": [
+        "data/raw/dataset-resized/glass/glass389.jpg",
+        "data/raw/dataset-resized/plastic/plastic332.jpg"
+      ],
+      "classes": [
+        "glass",
+        "plastic"
+      ],
+      "label_conflict": true
+    },
+    {
+      "hash": "81c6cdae6d0800b10b91db46327e6caf4c0814d4d25cfd6f7fcb8a3095a8ffd2",
+      "paths": [
+        "data/raw/dataset-resized/glass/glass176.jpg",
+        "data/raw/dataset-resized/plastic/plastic152.jpg"
+      ],
+      "classes": [
+        "glass",
+        "plastic"
+      ],
+      "label_conflict": true
+    },
+    {
+      "hash": "c718bbee87bf9decf9109d8c221770fa9c8aac6e13fe9af67792bd6228a171cd",
+      "paths": [
+        "data/raw/dataset-resized/glass/glass115.jpg",
+        "data/raw/dataset-resized/metal/metal91.jpg"
+      ],
+      "classes": [
+        "glass",
+        "metal"
+      ],
+      "label_conflict": true
+    }
+  ],
+  "zip_sha256": "c060e8abfe5d6de0578ca15be1ed8ad0794a865d333c3473d53d1d9ad6e38b8c",
+  "seed": 42,
+  "split_counts": {
+    "train": {
+      "cardboard": 282,
+      "glass": 350,
+      "metal": 287,
+      "paper": 416,
+      "plastic": 337,
+      "trash": 96
+    },
+    "val": {
+      "cardboard": 61,
+      "glass": 75,
+      "metal": 61,
+      "paper": 89,
+      "plastic": 72,
+      "trash": 21
+    },
+    "test": {
+      "cardboard": 60,
+      "glass": 76,
+      "metal": 62,
+      "paper": 89,
+      "plastic": 73,
+      "trash": 20
+    }
+  },
+  "duplicate_swaps": [
+    {
+      "duplicate_path": "data/raw/dataset-resized/plastic/plastic332.jpg",
+      "swap_path": "data/raw/dataset-resized/plastic/plastic1.jpg",
+      "class_name": "plastic",
+      "from_split": "val",
+      "to_split": "train",
+      "anchor_path": "data/raw/dataset-resized/glass/glass389.jpg"
+    }
+  ],
+  "duplicate_policy": "Arquivos com pixels RGB idênticos são mantidos no mesmo conjunto. Grupos com rótulos divergentes são preservados para manter as 2.527 imagens e a distribuição de referência; trocas determinísticas de imagens da mesma classe preservam as contagens estratificadas. Nenhuma decisão utiliza métricas de modelo.",
+  "label_conflict_groups": 3,
+  "label_conflict_files": 6,
+  "cross_split_pixel_duplicates": 0,
+  "manifest_sha256": "3e3a2d2ee3f9929921ab8d14a03254f1f80780995d96430dec2510096392241e"
+}

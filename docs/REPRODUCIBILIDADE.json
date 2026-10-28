@@ -1,0 +1,67 @@
+{
+  "environment": "Mesmo ambiente Python instalado; cópia isolada extraída do ZIP, sem retreino. ZIP de dados local validado por SHA256.",
+  "manifest_equal": {
+    "splits": true,
+    "train": true,
+    "val": true,
+    "test": true
+  },
+  "runs": {
+    "cnn_128": {
+      "images": 380,
+      "byte_identical": {
+        "test_predictions.csv": true,
+        "classification_report.csv": true,
+        "confusion_matrix.csv": true,
+        "confusion_matrix_percent.csv": true
+      }
+    },
+    "cnn_128_weighted": {
+      "images": 380,
+      "byte_identical": {
+        "test_predictions.csv": true,
+        "classification_report.csv": true,
+        "confusion_matrix.csv": true,
+        "confusion_matrix_percent.csv": true
+      }
+    },
+    "cnn_256": {
+      "images": 380,
+      "byte_identical": {
+        "test_predictions.csv": true,
+        "classification_report.csv": true,
+        "confusion_matrix.csv": true,
+        "confusion_matrix_percent.csv": true
+      }
+    },
+    "cnn_512": {
+      "images": 380,
+      "byte_identical": {
+        "test_predictions.csv": true,
+        "classification_report.csv": true,
+        "confusion_matrix.csv": true,
+        "confusion_matrix_percent.csv": true
+      }
+    },
+    "mlp_128": {
+      "images": 380,
+      "byte_identical": {
+        "test_predictions.csv": true,
+        "classification_report.csv": true,
+        "confusion_matrix.csv": true,
+        "confusion_matrix_percent.csv": true
+      }
+    },
+    "mlp_128_weighted": {
+      "images": 380,
+      "byte_identical": {
+        "test_predictions.csv": true,
+        "classification_report.csv": true,
+        "confusion_matrix.csv": true,
+        "confusion_matrix_percent.csv": true
+      }
+    }
+  },
+  "summary_byte_identical": true,
+  "repeated_after_review_code_changes": true
+}

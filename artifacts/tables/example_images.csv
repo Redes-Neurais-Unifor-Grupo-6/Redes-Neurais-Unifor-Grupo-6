@@ -1,0 +1,13 @@
+class_name,path,split
+glass,data/raw/dataset-resized/glass/glass1.jpg,train
+glass,data/raw/dataset-resized/glass/glass100.jpg,train
+paper,data/raw/dataset-resized/paper/paper10.jpg,train
+paper,data/raw/dataset-resized/paper/paper100.jpg,train
+cardboard,data/raw/dataset-resized/cardboard/cardboard10.jpg,train
+cardboard,data/raw/dataset-resized/cardboard/cardboard100.jpg,train
+plastic,data/raw/dataset-resized/plastic/plastic10.jpg,train
+plastic,data/raw/dataset-resized/plastic/plastic101.jpg,train
+metal,data/raw/dataset-resized/metal/metal10.jpg,train
+metal,data/raw/dataset-resized/metal/metal101.jpg,train
+trash,data/raw/dataset-resized/trash/trash1.jpg,train
+trash,data/raw/dataset-resized/trash/trash10.jpg,train

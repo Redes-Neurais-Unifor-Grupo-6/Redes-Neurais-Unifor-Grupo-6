@@ -1,0 +1,15 @@
+# Intervalos para instalação em ambientes Python 3.11+ / Colab; não garantem reprodução bit a bit.
+torch>=2.6
+numpy>=2.1
+pandas>=2.2
+scikit-learn>=1.6
+matplotlib>=3.9
+pillow>=11
+psutil>=6
+reportlab>=4.2
+pypdf>=5
+nbformat>=5.10
+nbclient>=0.10
+ipykernel>=6
+requests>=2.32
+pytest>=8

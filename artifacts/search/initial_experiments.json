@@ -1,0 +1,65 @@
+{
+  "protocol": {
+    "seed": 42,
+    "threads": 4,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "weight_decay": 0.0,
+    "max_epochs": 30,
+    "patience": 7,
+    "min_delta": 0.0,
+    "dropout": 0.3,
+    "normalization": "uint8 / 255.0",
+    "resize": "Pillow.Resampling.LANCZOS",
+    "augmentation": false,
+    "selection_metric": "val_macro_f1",
+    "validation_loss": "unweighted_cross_entropy",
+    "class_weight_formula": "n_train / (6 * class_count_train)",
+    "device": "cpu"
+  },
+  "experiments": [
+    {
+      "id": "mlp_128",
+      "architecture": "mlp",
+      "image_width": 128,
+      "image_height": 96,
+      "weighted": false
+    },
+    {
+      "id": "mlp_128_weighted",
+      "architecture": "mlp",
+      "image_width": 128,
+      "image_height": 96,
+      "weighted": true
+    },
+    {
+      "id": "cnn_128",
+      "architecture": "cnn",
+      "image_width": 128,
+      "image_height": 96,
+      "weighted": false
+    },
+    {
+      "id": "cnn_128_weighted",
+      "architecture": "cnn",
+      "image_width": 128,
+      "image_height": 96,
+      "weighted": true
+    },
+    {
+      "id": "cnn_256",
+      "architecture": "cnn",
+      "image_width": 256,
+      "image_height": 192,
+      "weighted": false
+    },
+    {
+      "id": "cnn_512",
+      "architecture": "cnn",
+      "image_width": 512,
+      "image_height": 384,
+      "weighted": false
+    }
+  ]
+}
