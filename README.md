@@ -1,8 +1,12 @@
 # TrashNet: MLP, CNN, pesos de classe e resolução
 
+**Grupo 1 - Redes Neurais Artificiais (Unifor).**
+
+**Repositório:** [Redes Neurais Unifor - Grupo 1](https://github.com/Redes-Neurais-Unifor-Grupo-1/Redes-Neurais-Unifor-Grupo-1).
+
 Estudo de classificação de resíduos para a atividade final de Redes Neurais Artificiais. O protocolo compara seis modelos treinados do zero, preserva as seis classes do TrashNet e separa a seleção por validação da avaliação final no teste. Os resultados numéricos são mantidos nos arquivos gerados; este README não substitui o artigo nem os registros experimentais.
 
-**Identificação provisória:** quatro integrantes `Lorem Ipsum`, matrícula `9999999`, conforme solicitado. **O repositório GitHub ainda precisa ser criado.** Antes da entrega, preencher os integrantes reais e `github_url` em [`docs/metadata.json`](docs/metadata.json), regenerar o artigo e conferir sua primeira página. A equipe pode ter de quatro a seis integrantes.
+**Identificação provisória:** quatro integrantes `Lorem Ipsum`, matrícula `9999999`, conforme solicitado. O grupo e o endereço do GitHub estão definidos em [`docs/metadata.json`](docs/metadata.json). Antes da entrega, preencher os integrantes reais, regenerar o artigo e conferir sua primeira página. A equipe pode ter de quatro a seis integrantes.
 
 > **Condição expressa do enunciado:** o uso de IA para código é permitido, mas a delegação de 100% do projeto à IA implica nota zero. A equipe precisa revisar e compreender o código, conduzir as decisões e assumir a análise e a interpretação. O [guia da equipe](docs/GUIA_DA_EQUIPE.md) organiza essa revisão; sua existência não atesta que ela já foi realizada.
 
@@ -189,21 +193,20 @@ Para verificar as invariantes implementadas, sem novos treinos reais:
 python -m pytest -q
 ```
 
-## Preparar a publicação
+## Atualizar o trabalho e preparar a entrega
 
-1. Revisar o material com o [guia](docs/GUIA_DA_EQUIPE.md), substituir os integrantes/matrículas provisórios e criar um repositório público na conta da equipe.
-2. Inserir a URL real em `docs/metadata.json`, campo `github_url`; revisar `title`, `authors`, `access_date` e `note`. Regenerar o artigo com `python -m src.article --root .` e conferir primeira página, tabelas, figuras e dez páginas.
+1. Revisar o material com o [guia](docs/GUIA_DA_EQUIPE.md) e substituir os integrantes/matrículas provisórios.
+2. Conferir `group`, `github_url`, `title`, `authors`, `access_date` e `note` em `docs/metadata.json`. Regenerar o artigo com `python -m src.article --root .` e conferir primeira página, tabelas, figuras e dez páginas.
 3. Conferir a presença dos seis `artifacts/runs/<id>/best.pt`, além da seleção, configurações, históricos, métricas e previsões. O `.gitignore` mantém `best.pt` e exclui dados brutos, caches, ambiente, temporários e `last.pt`.
-4. Dentro da raiz `trashnet`, executar os comandos abaixo, substituindo `SUA_CONTA/SEU_REPOSITORIO` pela URL real. Eles são instruções para a equipe; a criação/publicação não foi realizada por este pacote.
+4. Na pasta local conectada ao repositório do Grupo 1, conferir o destino com `git remote -v` e revisar as alterações antes de enviá-las. Os comandos abaixo registram e publicam as alterações da equipe:
 
 ```bash
-git init -b main
-git add .
 git status --short
+git diff
+git add .
 git diff --cached --stat
-git commit -m "Adiciona estudo reproduzível de classificação TrashNet"
-git remote add origin https://github.com/SUA_CONTA/SEU_REPOSITORIO.git
-git push -u origin main
+git commit -m "Atualiza trabalho do Grupo 1"
+git push
 ```
 
 Revise o que foi preparado antes do commit. Depois do envio, abra o repositório sem sessão autenticada, confira o download dos seis modelos e teste o fluxo de avaliação em uma cópia limpa. Envie a mesma versão final do PDF no AVA por todos os integrantes. Não há extensão YOLO nesta implementação; o bônus é opcional e não é reivindicado.

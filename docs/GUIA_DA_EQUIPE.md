@@ -2,6 +2,8 @@
 
 Este guia organiza a revisão que a equipe ainda precisa realizar. Não declara que os integrantes já compreenderam o código, tomaram decisões ou validaram o texto. Use os arquivos do projeto e os resultados efetivamente calculados para preparar as respostas; evite decorar conclusões sem conseguir mostrar sua evidência.
 
+**Identificação atual — Grupo 1 (30 out. 2026):** o usuário informou que renomeou a organização e o repositório já existentes para [Redes-Neurais-Unifor-Grupo-1](https://github.com/Redes-Neurais-Unifor-Grupo-1/Redes-Neurais-Unifor-Grupo-1). Esta atualização local de identificação e link ainda precisa ser publicada. O acesso externo e o conteúdo remoto não foram reconferidos nesta atualização. Nomes e matrículas permanecem provisórios; a revisão humana e a entrega no AVA continuam pendentes.
+
 > **Regra da atividade:** IA pode apoiar a geração de código, mas o enunciado atribui nota zero à delegação de 100% do projeto à IA. A equipe deve revisar e compreender o código, conduzir as decisões metodológicas e assumir análise e interpretação. A entrega também exige o PDF no AVA por cada integrante; apenas publicar código não basta.
 
 ## 1. O que o estudo testa
@@ -120,7 +122,8 @@ Decisões a revisar incluem manter rótulos originais conflitantes, treinar sem 
 ## 10. Conferência final antes da entrega
 
 - [ ] Substituir `Lorem Ipsum` e `9999999` pelos dados reais dos quatro a seis integrantes em `metadata.json`.
-- [ ] Criar o GitHub, inserir `github_url` real e atualizar a identificação do README.
+- [x] Registrar o Grupo 1 e o endereço do repositório já existente informado pelo usuário em 30 out. 2026.
+- [ ] Publicar a atualização local e conferir o acesso externo ao repositório, ao PDF e aos modelos.
 - [ ] Conferir seis `best.pt`, configurações, históricos, métricas, previsões e seleção congelada.
 - [ ] Conferir todos os valores e conclusões do artigo contra os registros.
 - [ ] Regenerar o PDF; verificar até dez páginas, uma coluna, título, nomes, matrículas, resumo e link na primeira página, sem capa separada.

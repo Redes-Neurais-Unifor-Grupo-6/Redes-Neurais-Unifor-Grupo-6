@@ -111,6 +111,8 @@ class Article:
         mlp_lr = next(c for c in final_config['experiments'] if c['id'] == 'mlp_128').get('learning_rate', final_config['protocol']['learning_rate'])
         # 1 - identidade, resumo e problema científico.
         self.p(html.escape(self.meta['title']), 'title')
+        if self.meta.get('group'):
+            self.p(html.escape(self.meta['group']), 'small')
         authors = '; '.join(f"{html.escape(a['name'])} (matrícula {html.escape(a['registration'])})" for a in self.meta['authors'])
         self.p(authors, 'small')
         url = self.meta.get('github_url')

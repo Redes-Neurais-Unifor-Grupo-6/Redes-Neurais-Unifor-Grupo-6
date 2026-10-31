@@ -2,9 +2,11 @@
 
 **Data:** 22 out. 2026. **Escopo:** comparação entre o enunciado da atividade, o artigo PDF, os dois notebooks, README e registros tabulares do projeto. Nomes e matrículas não integram esta revisão. A revisão documental não alterou experimentos nem realizou treinamento, inferência ou testes de integração. As verificações técnicas complementares estão em `docs/VERIFICACAO.md`.
 
-**Documento examinado:** `docs/artigo.pdf`, 10 páginas A4, SHA-256 `dee035d9b3f546c6dc04147393fe54004d06d9c959b91290bad24abef5edfe26`. Foram examinados texto extraído e imagens renderizadas das dez páginas; as páginas alteradas durante o acabamento foram novamente inspecionadas. A revisão identifica esta versão: qualquer regeneração exige conferir novamente paginação e trechos alterados.
+**Atualização de identificação em 30 out. 2026:** o artigo passou a identificar o Grupo 1 e o endereço do repositório informado pelo usuário. A primeira página foi novamente inspecionada visualmente; as páginas 2 a 10 mantiveram texto e imagens renderizadas idênticos aos da versão anteriormente revisada. Não houve alteração dos experimentos nem nova auditoria científica nesta atualização.
 
-**Resultado:** todos os elementos científicos e gráficos obrigatórios foram encontrados no artigo e no notebook de resultados. As tabelas e afirmações numéricas examinadas são consistentes com os registros. Não foi encontrado erro científico ou numérico material no PDF inspecionado. A busca opcional está registrada em tabela no artigo, no notebook e em CSV. Permanecem pendentes o GitHub e seu link na primeira página. A submissão no AVA e a participação/revisão efetiva da equipe dependem de ações externas e não são comprovadas pelos arquivos; por isso, esta revisão não declara a entrega integralmente concluída nem garante uma nota.
+**Documento vigente:** `docs/artigo.pdf`, 10 páginas A4, SHA-256 `6526d4feab4e720eb501daaf57658e813304d3ebd4678fe778402b3bf625a8e4`. A revisão original examinou texto extraído e imagens renderizadas das dez páginas; a atualização acima conferiu a identificação e a preservação das demais páginas. Qualquer regeneração exige conferir novamente paginação e trechos alterados.
+
+**Resultado:** todos os elementos científicos e gráficos obrigatórios foram encontrados no artigo e no notebook de resultados. As tabelas e afirmações numéricas examinadas são consistentes com os registros. Não foi encontrado erro científico ou numérico material no PDF inspecionado. A busca opcional está registrada em tabela no artigo, no notebook e em CSV. O link do Grupo 1 foi inserido na primeira página em 30 out. 2026; permanecem pendentes o envio desta atualização ao GitHub e a conferência de acesso público no endereço atual. A submissão no AVA e a participação/revisão efetiva da equipe dependem de ações externas e não são comprovadas pelos arquivos; por isso, esta revisão não declara a entrega integralmente concluída nem garante uma nota.
 
 ## Critérios usados nesta auditoria
 
@@ -85,7 +87,7 @@ O enunciado exige os elementos desta seção **tanto no artigo quanto no noteboo
 | Introdução, métodos, resultados, discussão, conclusão e referências | P. 1–10 | Atendido; discussão também acompanha as tabelas e curvas, além da seção 4. |
 | Até dez páginas, uma coluna, sem capa separada | PDF e revisão visual de todas as páginas | Atendido; dez páginas, texto em uma coluna. Painéis de tabelas/figuras são permitidos pelo enunciado. |
 | Título e resumo na primeira página | P. 1 | Atendido. Nomes/matrículas fora do escopo desta auditoria. |
-| Link do GitHub na primeira página | P. 1 diz “pendente de publicação e inserção do link”; `metadata.json` tem URL nula | **Pendente.** É requisito explícito ainda não atendido. |
+| Link do GitHub na primeira página | P. 1 e `metadata.json` contêm o endereço do Grupo 1 informado pelo usuário | Atendido documentalmente em 30 out. 2026; destino do hiperlink conferido no PDF. Acesso remoto não reconferido nesta atualização. |
 | Citações e referências de fontes externas | Chamadas autor-data p. 1–2/9 e referências p. 10 | Atendido nos elementos auditados. Não foi emitida certificação de conformidade integral com normas ABNT. As fontes e o alcance da conferência estão descritos abaixo. |
 | Figuras/tabelas numeradas, interpretadas e legíveis | Figuras 1–9 e Tabelas 1–4, p. 3–9 | Atendido; sem cortes ou sobreposições percebidos. Matrizes têm texto menor, mas legível na renderização inspecionada. |
 | README com dependências/versões/dados/instalação/pastas/execução | README; requisitos exatos, portáveis e lock | Atendido documentalmente; instalação não foi repetida nesta auditoria. |
@@ -94,7 +96,7 @@ O enunciado exige os elementos desta seção **tanto no artigo quanto no noteboo
 | Scripts/notebooks para os seis treinos com configs | `src/train.py`, `src/models.py`, `configs/experiments.json`, README | Atendido documentalmente. |
 | Notebook de métricas, figuras e análise | `02_resultados.ipynb`, 24 células, 12 de código | Atendido; 12 células executadas e nenhuma saída de erro salva. |
 | Seis modelos salvos, divisão, configs, históricos, métricas e previsões | `artifacts/runs/<id>/`, `data/`, `artifacts/selection.json` | Atendido no pacote local; acesso público depende da publicação. |
-| Código e modelos acessíveis no GitHub | README informa repositório ainda não criado | **Pendente.** Preparar arquivos localmente não equivale à publicação pedida. |
+| Código e modelos acessíveis no GitHub | Envio inicial confirmado pela saída de `git push` apresentada pelo usuário; repositório renomeado para Grupo 1 conforme informado | Conferência do acesso público atual e publicação desta atualização ainda pendentes. Não se atesta o conteúdo remoto somente pela cópia local. |
 | Cada integrante enviar o mesmo PDF no AVA até 27/11/2026 23h59 | README/guia instruem; não há comprovante de submissão | Não verificável; ação de entrega ainda externa ao pacote. |
 | Revisão/compreensão humana e condução pela equipe, com IA como apoio | `docs/USO_DE_IA.md` e guia declaram revisão pendente | Não verificável; documentação não comprova participação. Não atestar atendimento integral dessa condição. |
 | Projeto com atribuição das fontes externas, sem declaração falsa de revisão | Artigo, README e `USO_DE_IA.md` | Atribuições presentes; não houve investigação externa de plágio ou confirmação de autoria humana. |
@@ -165,7 +167,7 @@ A revisão visual verificou uma coluna de texto, ausência de capa separada, lim
 
 ## Pendências para entrega e alcance da revisão
 
-1. **GitHub e link na primeira página:** criar/publicar o repositório, conferir acesso público aos seis `best.pt`, inserir a URL real em `docs/metadata.json` e regenerar o artigo. Não preencher com URL fictícia.
+1. **GitHub:** publicar esta atualização no repositório do Grupo 1 e conferir o acesso público ao código, ao PDF atualizado e aos seis `best.pt`. O endereço informado já consta em `docs/metadata.json` e na primeira página do artigo.
 2. **AVA:** cada integrante deve enviar o mesmo PDF, até 27/11/2026 às 23h59. A existência do pacote local ou do repositório não comprova submissão; o enunciado torna o PDF no AVA condição de avaliação.
 3. **Participação da equipe:** os integrantes devem conduzir a revisão, compreender o código e assumir análise e decisões, conforme o enunciado. `docs/USO_DE_IA.md` e `docs/GUIA_DA_EQUIPE.md` organizam essa etapa, mas não comprovam que ela ocorreu. Não há declaração de revisão humana concluída.
 

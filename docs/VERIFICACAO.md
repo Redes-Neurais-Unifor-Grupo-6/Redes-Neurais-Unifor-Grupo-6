@@ -34,7 +34,7 @@ A consistência dos registros não comprova externamente todo o histórico de ex
 
 - O comando `python -m pytest -q` passou em todos os **26 testes**. A suíte verifica classes, estratificação, proteção contra duplicatas, perda ponderada, invariância da CNN, seleção sem teste, retomada determinística e avaliação sem novo treinamento em dados sintéticos.
 - Os dois notebooks foram executados integralmente, em ordem: seis células de código na análise exploratória e doze em resultados. As saídas incluem tabelas e figuras reais, sem células de erro. Usou-se IPython no mesmo processo para dispensar sockets de kernel bloqueados neste ambiente.
-- O PDF foi gerado em uma coluna e contém dez páginas. A revisão visual verificou títulos, tabelas, legendas, gráficos, matrizes e referências; nomes e matrículas permanecem provisórios por solicitação do usuário; publicação no GitHub e seu link permanecem pendentes.
+- O PDF foi gerado em uma coluna e contém dez páginas. A revisão visual verificou títulos, tabelas, legendas, gráficos, matrizes e referências; nomes e matrículas permaneceram provisórios por solicitação do usuário. Naquela revisão, a publicação no GitHub e seu link ainda estavam pendentes; a atualização de identificação está registrada ao final deste documento.
 - O ZIP de distribuição contém os seis melhores modelos, os registros e os códigos, mas exclui dataset bruto, caches, ambiente Python e checkpoints de retomada. O download verificado reconstrói os dados.
 
 ## Revisão complementar e reprodução em cópia isolada
@@ -56,3 +56,9 @@ A consistência dos registros não comprova externamente todo o histórico de ex
 5. `evaluate` verifica a configuração atual, o registro do treino e os metadados do checkpoint antes de abrir imagens de teste.
 
 O atendimento item a item e as pendências de entrega constam de `docs/REVISAO_RUBRICA.md`. Nenhuma destas conferências garante nota nem substitui a revisão exigida da equipe.
+
+## Atualização de identificação — 30 out. 2026
+
+O usuário informou a mudança para o **Grupo 1** e a renomeação da organização e do repositório já existentes para [Redes-Neurais-Unifor-Grupo-1](https://github.com/Redes-Neurais-Unifor-Grupo-1/Redes-Neurais-Unifor-Grupo-1). A identificação e o link foram atualizados na documentação local. Esta atualização ainda precisa ser publicada; o acesso externo e o conteúdo remoto não foram reconferidos.
+
+Este registro não representa novo treinamento, nova avaliação científica ou revisão humana dos resultados. As verificações anteriores e seus resultados permanecem como registro histórico. Nomes e matrículas continuam provisórios por solicitação do usuário; a revisão pela equipe e a entrega no AVA continuam pendentes.

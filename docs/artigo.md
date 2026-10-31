@@ -1,8 +1,10 @@
 Classificação de resíduos no TrashNet: comparação entre MLP e CNN, ponderação de classes e resolução
 
+Grupo 1
+
 Lorem Ipsum (matrícula 9999999); Lorem Ipsum (matrícula 9999999); Lorem Ipsum (matrícula 9999999); Lorem Ipsum (matrícula 9999999)
 
-GitHub: <b>pendente de publicação e inserção do link.</b>
+GitHub: <link href="https://github.com/Redes-Neurais-Unifor-Grupo-1/Redes-Neurais-Unifor-Grupo-1">https://github.com/Redes-Neurais-Unifor-Grupo-1/Redes-Neurais-Unifor-Grupo-1</link>
 
 Resumo
 

@@ -1,12 +1,13 @@
 {
   "title": "Classificação de resíduos no TrashNet: comparação entre MLP e CNN, ponderação de classes e resolução",
+  "group": "Grupo 1",
   "authors": [
     {"name": "Lorem Ipsum", "registration": "9999999"},
     {"name": "Lorem Ipsum", "registration": "9999999"},
     {"name": "Lorem Ipsum", "registration": "9999999"},
     {"name": "Lorem Ipsum", "registration": "9999999"}
   ],
-  "github_url": null,
+  "github_url": "https://github.com/Redes-Neurais-Unifor-Grupo-1/Redes-Neurais-Unifor-Grupo-1",
   "access_date": "21 out. 2026",
-  "note": "Dados de identificação provisórios solicitados pelo usuário. Inserir autores, matrículas e URL reais antes da entrega."
+  "note": "Trabalho do Grupo 1. Nomes e matrículas provisórios solicitados pelo usuário; substituir pelos integrantes reais antes da entrega. Endereço do repositório informado pelo usuário em 30 out. 2026."
 }
